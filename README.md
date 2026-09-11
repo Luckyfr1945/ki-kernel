@@ -19,12 +19,6 @@ Flash the zip via Custom Recovery (TWRP / OrangeFox) or Kernel Flasher:
 - AOSP: `Kernel_AOSP_munch_*.zip`
 - MIUI: `Kernel_MIUI_munch_*.zip`
 
-## Notes
-Root hiding di kernel level (SuSFS) udah aktif semua. Untuk bypass app banking / DANA, pastikan setup userspace juga bener:
-- Play Integrity lolos device integrity (PlayIntegrityFix)
-- Sembunyikan app root (MT Manager, KSU, LSPosed, Termux) pake Hide My Applist
-- Hide Zygisk pake Shamiko / Zygisk Assistant
-
 ## Credits
 - [LineageOS SM8250](https://github.com/LineageOS/android_kernel_xiaomi_sm8250)
 - [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next)
