@@ -1,6 +1,6 @@
 # Kernel - POCO F4 (munch)
 
-Custom kernel for POCO F4 / Redmi K40S (munch / sm8250) based on LineageOS 4.19 with KernelSU-Next and SuSFS.
+Custom kernel for POCO F4 / Redmi K40S with KernelSU-Next and SuSFS.
 
 ## Specs & Features
 - Linux 4.19.325
