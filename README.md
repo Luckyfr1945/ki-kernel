@@ -14,15 +14,6 @@ Custom kernel for POCO F4 / Redmi K40S with KernelSU-Next and SuSFS.
 - **AOSP**: For AOSP based ROMs (tested on Android 16 / AxionOS 2.8 Beta)
 - **MIUI**: For MIUI / HyperOS stock based ROMs
 
-## Changelog
-- Bump KernelSU-Next to v3.3.0 with Driver UAPI v2
-- Enable all 15 SuSFS configs (TRY_UMOUNT, SUS_OVERLAYFS, SUS_MAPS, etc)
-- Fix undefined reference to `susfs_try_umount_all` in `fs/namespace.c`
-- Fix `add_try_umount` return code (fixes OverlayFS mount error 17)
-- Fix use-after-free kernel panic on `__sys_setresuid`
-- Fix string buffer panic on `CMD_SUSFS_SHOW_ENABLED_FEATURES`
-- Update build script to output both AOSP and MIUI flashable zips
-
 ## Flashing
 Flash the zip via Custom Recovery (TWRP / OrangeFox) or Kernel Flasher:
 - AOSP: `Kernel_AOSP_munch_*.zip`
