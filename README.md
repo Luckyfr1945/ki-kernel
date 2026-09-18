@@ -2,8 +2,6 @@
 
 Custom kernel for **POCO F4 / Redmi K40S (munch)** with KernelSU-Next, SuSFS, performance tuning, memory optimizations and additional kernel features.
 
-Base: `kernel_xiaomi_sm8250_mod`, `munch_defconfig`, proton-clang toolchain.
-
 ## Specs & Features
 
 - Linux 4.19.325
